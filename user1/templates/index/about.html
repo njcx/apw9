@@ -1,0 +1,252 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+<head>
+<title>About</title>
+<link href="{%  static "css/bootstrap.css"%}" rel="stylesheet">
+<link href="{%  static "css/style.css"%}" rel="stylesheet" type="text/css" media="all" />
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Styling Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->	
+<script src="{% static "js/jquery.min.js"%}"> </script>
+<!---- start-smoth-scrolling---->
+		<script type="text/javascript" src="{% static "js/move-top.js"%}"></script>
+		<script type="text/javascript" src="{% static "js/easing.js"%}"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+				});
+			});
+		</script>
+<!---- start-smoth-scrolling---->
+</head>
+<body>
+{% include "index/header.html" %}
+<!-- //navigation -->
+<!--/header-->
+<div class="content">
+	<div class="about">
+		<div class="container">
+			<h2>关于</h2>
+			<div class="col-md-8 in-about">
+						<h4>OUR PROFILE</h4>
+						<div class="our-grid">
+							<div class=" our-para">
+						<a href="#">
+				<img src="{% static "images/ab.jpg"%}" alt="image" class="img-responsive ">
+				</a>						
+					</div>
+							<div class="our-head">
+							<h6><a href="#">Lorem ipsum dolor sit amet, consectetur adipisci ngelit. </a></h6>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisi sem, vestibulum ac lobortis quis, aliquet in metus. Suspendi sse a nibh id eros consectetur laoreet. Etiam viverra auctor orci, eu mattis ipsum rutrum nec.</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisi sem, vestibulum ac lobortis quis, aliquet in metus. Suspendi sse a nibh id eros consectetur laoreet. Etiam viverra auctor orci, eu mattis ipsum rutrum nec.</p>
+							</div>
+						<div class="clearfix"> </div>
+						</div>
+					</div>
+			<div class="col-md-4 possible-about">
+					<h4>OUR CAPABILITIES</h4>
+						<div class="tab1">
+							<ul class="place">
+								<li><img src="{% static "images/cir.png"%}" alt=""></li>
+								<li>Placerat ligula tincidunt</li>
+							</ul>
+						<p style="display: none; overflow: hidden;">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+						</div>
+						<div class="tab2">
+							<ul class="place">
+								<li><img src="{% static "images/cir.png"%}" alt=""></li>
+								<li>Sed ut perspiciatis unde</li>
+							</ul>
+						<p style="display: none; overflow: hidden;">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+						</div>
+						<div class="tab3">
+							<ul class="place">
+								<li><img src="{% static "images/cir.png"%}" alt=""></li>
+								<li>Eaque ipsa quae ab illo </li>
+							</ul>
+						<p style="display: none; overflow: hidden;">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+						</div>
+						<div class="tab4">
+							<ul class="place">
+								<li><img src="{% static "images/cir.png"%}" alt=""></li>
+								<li>At vero eos et accusamus</li>
+							</ul>
+						<p style="display: none; overflow: hidden;">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+						</div>
+						<div class="tab5">
+							<ul class="place">
+								<li><img src="{% static "images/cir.png"%}" alt=""></li>
+								<li>Internet tend to repeat </li>
+							</ul>
+						<p style="display: block; overflow: hidden;">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+						</div>
+						<div class="tab6">
+							<ul class="place">
+								<li><img src="{% static "images/cir.png"%}" alt=""></li>
+								<li>Many desktop publishing</li>
+							</ul>
+						<p style="display: block; overflow: hidden;">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+						</div>
+						
+						<!--script-->
+						<script>
+							$(document).ready(function(){
+								$(".tab1 p").hide();
+								$(".tab2 p").hide();
+								$(".tab3 p").hide();
+								$(".tab4 p").hide();
+								$(".tab5 p").hide();
+								$(".tab6 p").hide();
+								$(".tab1 ul").click(function(){
+									$(".tab1 p").slideToggle(300);
+									$(".tab2 p").hide();
+									$(".tab3 p").hide();
+									$(".tab4 p").hide();
+									$(".tab5 p").hide();
+									$(".tab6 p").hide();
+								})
+								$(".tab2 ul").click(function(){
+									$(".tab2 p").slideToggle(300);
+									$(".tab1 p").hide();
+									$(".tab3 p").hide();
+									$(".tab4 p").hide();
+									$(".tab5 p").hide();
+									$(".tab6 p").hide();
+								})
+								$(".tab3 ul").click(function(){
+									$(".tab3 p").slideToggle(300);
+									$(".tab4 p").hide();
+									$(".tab5 p").hide();
+									$(".tab6 p").hide();
+									$(".tab2 p").hide();
+									$(".tab1 p").hide();
+								})
+								$(".tab4 ul").click(function(){
+									$(".tab4 p").slideToggle(300);
+									$(".tab3 p").hide();
+									$(".tab2 p").hide();
+									$(".tab1 p").hide();
+									$(".tab5 p").hide();
+									$(".tab6 p").hide();
+								})
+								$(".tab5 ul").click(function(){
+									$(".tab5 p").slideToggle(300);
+									$(".tab4 p").hide();
+									$(".tab3 p").hide();
+									$(".tab2 p").hide();
+									$(".tab1 p").hide();
+									$(".tab6 p").hide();
+									
+								})
+								$(".tab6 ul").click(function(){
+									$(".tab6 p").slideToggle(300);
+									$(".tab5 p").hide();
+									$(".tab4 p").hide();
+									$(".tab3 p").hide();
+									$(".tab2 p").hide();
+									$(".tab1 p").hide();																	
+								})
+								
+								
+							});
+						</script>
+						<!-- script -->
+					</div>
+		</div>
+	</div>
+</div>
+<div class="container">
+		<!---->
+		<div class="bottom-content-in">
+			<div class="col-md-4 in-profile">
+					<h4>News</h4>
+					<div class="col-in-about">
+						<div class="in-sed">
+							<b>16</b>
+							<span>AUG</span>
+						</div>
+						<div class="left-sit">
+							<p>Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a ullamcorper laoreet</p>
+							<a href="#" class="more"><b>+</b> more info</a>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="col-in-about">
+						<div class="in-sed">
+							<b>22</b>
+							<span>NOV</span>
+						</div>
+						<div class="left-sit">
+							<p>Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a ullamcorper laoreet</p>
+							<a href="#" class="more"><b>+</b> more info</a>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="col-in-about">
+						<div class="in-sed">
+							<b>05</b>
+							<span>DEC</span>
+						</div>
+						<div class="left-sit">
+							<p>Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a ullamcorper laoreet</p>
+							<a href="#" class="more"><b>+</b> more info</a>
+						</div>
+						<div class="clearfix"> </div>
+					</div>	
+				</div>
+				
+				<div class="col-md-4 in-profile">
+					<h4>From Blog</h4>
+					<div class="from">
+						<p>“ Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a ullamco... ”</p>
+						<ul class="date">
+							<li><span><a href="#"><i></i>John Doe </a></span></li>
+							<li><span><i class="date-in"></i>09-07-2013</span></li>
+							<li><span><a href="#"><i class="comment"></i>12 Comments</a></span></li>
+						</ul>
+					</div>
+					<div class="from">
+						<p class="sed">“ Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a ullamco... ”</p>
+						<ul class="date">
+							<li><span><a href="#"><i></i>John Doe </a></span></li>
+							<li><span><i class="date-in"></i>09-07-2013</span></li>
+							<li><span><a href="#"><i class="comment"></i>12 Comments</a></span></li>
+						</ul>
+					</div>
+					<div class="from">
+						<p class="sed">“ Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a ullamco... ”</p>
+						<ul class="date">
+							<li><span><a href="#"><i></i>John Doe </a></span></li>
+							<li><span><i class="date-in"></i>09-07-2013</span></li>
+							<li><span><a href="#"><i class="comment"></i>12 Comments</a></span></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-4 in-profile">
+					<h4>Lorem ipsum </h4>
+					<p class="sag">Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus.</p>
+					<ul class="popular ">
+						<li><a href="#"><i class="dot"> </i>Aliquam tincidunt mauris eu risu</a></li>
+						<li><a href="#"><i class="dot"> </i>Integer vitae libero ac risus egestas place</a></li>
+						<li><a href="#"><i class="dot"> </i>Donec quis dui at dolor tempor interdu</a></li>
+						<li><a href="#"><i class="dot"> </i>Fusce lobortis lorem at ipsum semper sagitti</a></li>
+						<li><a href="#"><i class="dot"> </i>Vestibulum auctor dapibus nequ</a></li>
+						
+					</ul>
+				</div>
+				<div class="clearfix"> </div>
+		</div>
+	</div>
+<!---->
+<!-- footer -->
+{% include 'index/footer.html' %}
+<!--copyrights-->
+{% include 'index/copyrights.html' %}
+</body>
+</html>

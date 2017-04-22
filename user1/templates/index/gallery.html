@@ -1,0 +1,144 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+<head>
+<title>Gallery</title>
+<link href="{% static "css/bootstrap.css"%}" rel="stylesheet">
+<link href="{% static "css/style.css"%}" rel="stylesheet" type="text/css" media="all" />
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Styling Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->	
+<script src="{% static "js/jquery.min.js"%}"> </script>
+<!---- start-smoth-scrolling---->
+		<script type="text/javascript" src="{% static "js/move-top.js"%}"></script>
+		<script type="text/javascript" src="{%  static "js/easing.js"%}"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+				});
+			});
+		</script>
+<!---- start-smoth-scrolling---->
+</head>
+<body>
+{% include "index/header.html" %}
+<div class="container">
+	<div class="portfolio">
+		<h2>GALLERY</h2>
+		<div class="products-bottom">
+			<div class="col-md-4 work-grid">
+				<div id="nivo-lightbox-demo">			
+					<a  href="{% static "images/pi.jpg"%}" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo">
+						<img src="{% static "images/pi.jpg"%}" class="img-responsive " alt=""/>
+						<div class="rotate">
+							<i> </i>	
+						</div>				
+					 </a> 
+				</div>
+			</div>			
+			<div class="col-md-4 work-grid">
+				<div id="nivo-lightbox-demo">			
+					<a  href="{% static "images/pi1.jpg"%}" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo">
+						<img src="{% static "images/pi1.jpg"%}" class="img-responsive " alt=""/>
+						<div class="rotate">
+							<i> </i>	
+						</div>				
+					 </a> 
+				</div>
+			</div>
+			<div class="col-md-4 work-grid">	
+				<div id="nivo-lightbox-demo">			
+					<a  href="{% static "images/pi2.jpg"%}" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo">
+						<img src="{% static "images/pi2.jpg"%}" class="img-responsive " alt=""/>
+						<div class="rotate">
+							<i> </i>	
+						</div>				
+					 </a> 
+				</div>	
+			</div>	
+			<div class="col-md-4 work-grid">
+				<div id="nivo-lightbox-demo">			
+					<a  href="{% static "images/pi3.jpg"%}" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo">
+						<img src="{% static "images/pi3.jpg"%}" class="img-responsive " alt=""/>
+						<div class="rotate">
+							<i> </i>	
+						</div>				
+					 </a> 
+				</div>
+			</div>	
+			<div class="col-md-4 work-grid">
+				<div id="nivo-lightbox-demo">			
+					<a  href="{% static "images/pi4.jpg"%}" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo">
+						<img src="{% static "images/pi4.jpg"%}" class="img-responsive " alt=""/>
+						<div class="rotate">
+							<i> </i>	
+						</div>				
+					 </a> 
+				</div>
+			</div>	
+			<div class="col-md-4 work-grid">
+				<div id="nivo-lightbox-demo">			
+					<a  href="{% static "images/pi1.jpg"%}" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo">
+						<img src="{% static "images/pi1.jpg"%}" class="img-responsive " alt=""/>
+						<div class="rotate">
+							<i> </i>	
+						</div>				
+					 </a> 
+				</div>
+			</div>	
+			<div class="col-md-4 work-grid">
+				<div id="nivo-lightbox-demo">			
+					<a  href="{% static "images/pi6.jpg"%}" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo">
+						<img src="{% static "images/pi6.jpg"%}" class="img-responsive " alt=""/>
+						<div class="rotate">
+							<i> </i>	
+						</div>				
+					 </a> 
+				</div>
+			</div>	
+			<div class="col-md-4 work-grid">
+				<div id="nivo-lightbox-demo">			
+					<a  href="{% static "images/pi7.jpg"%}" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo">
+						<img src="{% static "images/pi7.jpg"%}" class="img-responsive " alt=""/>
+						<div class="rotate">
+							<i> </i>	
+						</div>				
+					 </a> 
+				</div>
+			</div>	
+			<div class="col-md-4 work-grid">
+				<div id="nivo-lightbox-demo">			
+					<a  href="{% static "images/pi.jpg"%}" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo">
+						<img src="{% static "images/pi.jpg"%}" class="img-responsive " alt=""/>
+						<div class="rotate">
+							<i> </i>	
+						</div>				
+					 </a> 
+				</div>
+			</div>				
+			<div class="clearfix"> </div>	
+		</div>
+	</div>
+</div>
+	<!--script-->
+	<link rel="stylesheet" type="text/css" href="{% static "css/magnific-popup.css"%}">
+			<script type="text/javascript" src="{%  static "js/nivo-lightbox.min.js"%}"></script>
+				<script type="text/javascript">
+				$(document).ready(function(){
+				    $('#nivo-lightbox-demo a').nivoLightbox({ effect: 'fade' });
+				});
+				</script>
+
+			<!---->
+			<!-- footer -->
+{% include 'index/footer.html' %}
+<!-- /footer -->
+<!--copyrights-->
+{% include 'index/copyrights.html' %}
+</body>
+</html>

@@ -1,0 +1,39 @@
+{% load staticfiles %}
+<!-- header -->
+<div id="home" class="banner banner2">
+<div class="header">
+	<div class="container">
+		<div class="logo">
+			<a href="{% url "first" %}"><img src="{% static "images/logo.png"%}" alt=""/></a>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+</div>
+<!-- //header -->
+<!-- navigation -->
+<div class="navigation">
+	<div class="container">
+		<nav class="navbar navbar-default">
+			<div class="navbar-header">
+			  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"> </span>
+				<span class="icon-bar"> </span>
+				<span class="icon-bar"> </span>
+			  </button>
+			</div>
+			<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+			  <ul class="nav navbar-nav">
+				<li><a href="{% url "first" %}">首页<span class="sr-only">(current)</span></a></li>
+				<li><a href="{%  url "services"%}">服务</a></li>
+				<li><a href="{%  url "gallery"%}">画册</a></li>
+                  <li><a href="{%  url "about"%}">关于我们</a></li>
+				<li><a href="{%  url "contact"%}">联系我们</a></li>
+                  <li><a href="{% url 'login' %}">用户登录</a></li>
+			  </ul>
+			  <div class="clearfix"> </div>
+			</div><!-- /.navbar-collapse -->
+		</nav>
+	</div>
+</div>
+</div>

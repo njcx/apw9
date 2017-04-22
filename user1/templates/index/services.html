@@ -1,0 +1,127 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+<head>
+<title>Services</title>
+<link href="{% static "css/bootstrap.css"%}" rel="stylesheet">
+<link href="{% static "css/style.css"%}" rel="stylesheet" type="text/css" media="all" />
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Styling Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->	
+<script src="{% static "js/jquery.min.js"%}"> </script>
+<!---- start-smoth-scrolling---->
+		<script type="text/javascript" src="{% static "js/move-top.js"%}"></script>
+		<script type="text/javascript" src="{% static "js/easing.js"%}"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+				});
+			});
+		</script>
+<!---- start-smoth-scrolling---->
+</head>
+<body>
+<!-- header -->
+{% include "index/header.html" %}
+<!--/header-->
+	<div class="content">
+		<div class="services">
+			<div class="container">
+				<h3>服务</h3>
+				<div class="service-in">
+				<div class="col-sm-4 span_2">
+				<a href="#" class="mask">
+				<img src="{% static "images/pi6.jpg"%}" alt="image" class="img-responsive zoom-img">
+				</a>
+					<div class="number-top">
+					<span class="number">01.</span>
+					<div class="number-in">
+						<h6><a href="#">Lorem ipsum dolor sit amet</a></h6>
+						<p>But I must explain to you how all this mistaken idea of denouncing pleasure.</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="border"> </div>
+				</div>
+				<div class="col-sm-4 span_2">
+					<div class="view effect">
+						<a href="#" class="mask">
+				<img src="{% static "images/pi1.jpg"%}" alt="image" class="img-responsive zoom-img">
+				</a>				
+					</div>
+					<div class="number-top">
+					<span class="number">02.</span>
+					<div class="number-in">
+						<h6><a href="#">Lorem ipsum dolor sit amet</a></h6>
+						<p>But I must explain to you how all this mistaken idea of denouncing pleasure.</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="border"> </div>
+				</div>
+				<div class="col-sm-4 span_2">
+					<div class="view effect">
+						<a href="#" class="mask">
+				<img src="{% static "images/pi3.jpg"%}" alt="image" class="img-responsive zoom-img">
+				</a>					
+					</div>
+					<div class="number-top">
+					<span class="number">03.</span>
+					<div class="number-in">
+						<h6><a href="#">Lorem ipsum dolor sit amet</a></h6>
+						<p>But I must explain to you how all this mistaken idea of denouncing pleasure.</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="border"> </div>
+				</div>
+				<div class="clearfix"> </div>
+				</div>	
+			</div>
+			<div class="service-top-in">
+				<div class="container">
+					<h5 class="best">STYLISH A to Z</h5>
+					<div class="ser-at">
+					<p>Labore et dolore magnam aliquam quaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur quis autem vel eum iure.</p>
+					<a href="#" class="more">MORE</a>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+			<div class="service-bottom">
+				<div class="container">
+					<h3>Popular Info</h3>
+					<div class="ser-bottom">
+						<div class="col-sm-4 flex-in">
+							<h4>Flexible</h4>
+							<p>Magnam aliquam quaerat voluptatemut enim ad minima veniam, quis nostrum exercitation em ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur quis autem vel.</p>
+							<a href="#" class="more">MORE</a>
+						</div>
+						<div class="col-sm-4 flex-in">
+							<h4>Convenient</h4>
+							<p>Magnam aliquam quaerat voluptatemut enim ad minima veniam, quis nostrum exercitation em ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur quis autem vel.</p>
+							<a href="#" class="more">MORE</a>
+						</div>
+						<div class="col-sm-4 flex-in">
+							<h4>Local</h4>
+							<p>Magnam aliquam quaerat voluptatemut enim ad minima veniam, quis nostrum exercitation em ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur quis autem vel.</p>
+							<a href="#" class="more">MORE</a>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- footer -->
+{% include 'index/footer.html' %}
+<!-- /footer -->
+<!--copyrights-->
+{% include 'index/copyrights.html' %}
+</body>
+</html>

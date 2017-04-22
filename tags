@@ -1,0 +1,123 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+0001_initial.py	user1/migrations/0001_initial.py	1;"	kind:file	line:1
+0002_auto_20170408_0431.py	user1/migrations/0002_auto_20170408_0431.py	1;"	kind:file	line:1
+0003_auto_20170408_0453.py	user1/migrations/0003_auto_20170408_0453.py	1;"	kind:file	line:1
+0004_site.py	user1/migrations/0004_site.py	1;"	kind:file	line:1
+ALLOWED_HOSTS	untitled1/settings.py	/^ALLOWED_HOSTS = []$/;"	kind:variable	line:16
+AUTH_PASSWORD_VALIDATORS	untitled1/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	kind:variable	line:90
+Aboutall	user1/models.py	/^class Aboutall(models.Model):$/;"	kind:class	line:16
+BASE_DIR	untitled1/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	kind:variable	line:4
+CACHES	untitled1/settings.py	/^CACHES = {$/;"	kind:variable	line:77
+DATABASES	untitled1/settings.py	/^DATABASES = {$/;"	kind:variable	line:66
+DEBUG	untitled1/settings.py	/^DEBUG = True$/;"	kind:variable	line:14
+INSTALLED_APPS	untitled1/settings.py	/^INSTALLED_APPS = [$/;"	kind:variable	line:21
+LANGUAGE_CODE	untitled1/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	kind:variable	line:109
+MEDIA_ROOT	untitled1/settings.py	/^MEDIA_ROOT = os.path.join(BASE_DIR, 'upload')$/;"	kind:variable	line:126
+MEDIA_URL	untitled1/settings.py	/^MEDIA_URL = '\/upload\/'$/;"	kind:variable	line:127
+MIDDLEWARE	untitled1/settings.py	/^MIDDLEWARE = [$/;"	kind:variable	line:31
+Migration	user1/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	user1/migrations/0002_auto_20170408_0431.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	user1/migrations/0003_auto_20170408_0453.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	user1/migrations/0004_site.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+ROOT_URLCONF	untitled1/settings.py	/^ROOT_URLCONF = 'untitled1.urls'$/;"	kind:variable	line:41
+SECRET_KEY	untitled1/settings.py	/^SECRET_KEY = '^(!fapd@m*9*cy2$f44&1t5bmp=(!oyy#l+xpd0u7agm4%l)d$'$/;"	kind:variable	line:11
+STATIC_URL	untitled1/settings.py	/^STATIC_URL = '\/static\/'$/;"	kind:variable	line:123
+Site	user1/models.py	/^class Site(models.Model):$/;"	kind:class	line:19
+TEMPLATES	untitled1/settings.py	/^TEMPLATES = [$/;"	kind:variable	line:43
+TIME_ZONE	untitled1/settings.py	/^TIME_ZONE = 'UTC'$/;"	kind:variable	line:111
+USE_I18N	untitled1/settings.py	/^USE_I18N = True$/;"	kind:variable	line:113
+USE_L10N	untitled1/settings.py	/^USE_L10N = True$/;"	kind:variable	line:115
+USE_TZ	untitled1/settings.py	/^USE_TZ = True$/;"	kind:variable	line:117
+User	user1/models.py	/^class User(models.Model):$/;"	kind:class	line:6
+User1Config	user1/apps.py	/^class User1Config(AppConfig):$/;"	kind:class	line:6
+UserForm	user1/views.py	/^class UserForm(forms.Form):$/;"	kind:class	line:14
+WSGI_APPLICATION	untitled1/settings.py	/^WSGI_APPLICATION = 'untitled1.wsgi.application'$/;"	kind:variable	line:60
+__init__.py	untitled1/__init__.py	1;"	kind:file	line:1
+__init__.py	user1/__init__.py	1;"	kind:file	line:1
+__init__.py	user1/backend/__init__.py	1;"	kind:file	line:1
+__init__.py	user1/migrations/__init__.py	1;"	kind:file	line:1
+__unicode__	user1/models.py	/^    def __unicode__(self):$/;"	kind:member	line:14
+_letter_cases	user1/backend/check_code.py	/^_letter_cases = "abcdefghjkmnpqrstuvwxy"  # 小写字母，去除可能干扰的i，l，o，z$/;"	kind:variable	line:7
+_numbers	user1/backend/check_code.py	/^_numbers = ''.join(map(str, range(3, 10)))  # 数字$/;"	kind:variable	line:9
+_upper_cases	user1/backend/check_code.py	/^_upper_cases = _letter_cases.upper()  # 大写字母$/;"	kind:variable	line:8
+about	user1/views.py	/^def about(request):$/;"	kind:function	line:97
+add	user1/views.py	/^def add(request):$/;"	kind:function	line:119
+admin.py	user1/admin.py	1;"	kind:file	line:1
+application	untitled1/wsgi.py	/^application = get_wsgi_application()$/;"	kind:variable	line:16
+apps.py	user1/apps.py	1;"	kind:file	line:1
+book	user1/views.py	/^def book(request):$/;"	kind:function	line:150
+cate	user1/views.py	/^def cate(request):$/;"	kind:function	line:140
+check_code	user1/views.py	/^def check_code(request):$/;"	kind:function	line:22
+check_code.py	user1/backend/check_code.py	1;"	kind:file	line:1
+column	user1/views.py	/^def column(request):$/;"	kind:function	line:155
+contact	user1/views.py	/^def contact(request):$/;"	kind:function	line:113
+content	user1/models.py	/^    content = models.TextField()$/;"	kind:variable	line:18
+create_lines	user1/backend/check_code.py	/^    def create_lines():$/;"	kind:function	line:52
+create_points	user1/backend/check_code.py	/^    def create_points():$/;"	kind:function	line:63
+create_strs	user1/backend/check_code.py	/^    def create_strs():$/;"	kind:function	line:73
+create_validate_code	user1/backend/check_code.py	/^def create_validate_code(size=(120, 30),$/;"	kind:function	line:12
+dependencies	user1/migrations/0001_initial.py	/^    dependencies = [$/;"	kind:variable	line:12
+dependencies	user1/migrations/0002_auto_20170408_0431.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	user1/migrations/0003_auto_20170408_0453.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	user1/migrations/0004_site.py	/^    dependencies = [$/;"	kind:variable	line:10
+fields	user1/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:18
+fields	user1/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:26
+fields	user1/migrations/0004_site.py	/^            fields=[$/;"	kind:variable	line:17
+firstpage	user1/views.py	/^def firstpage(request):$/;"	kind:function	line:69
+gallery	user1/views.py	/^def gallery(request):$/;"	kind:function	line:108
+generate_qrcode	user1/views.py	/^def generate_qrcode(request, data):$/;"	kind:function	line:160
+get_chars	user1/backend/check_code.py	/^    def get_chars():$/;"	kind:function	line:48
+image_type	untitled1/settings.py	/^image_type = ['.jpeg', '.jpg', '.png', '.bmp']$/;"	kind:variable	line:130
+index	user1/views.py	/^def index():$/;"	kind:function	line:11
+index	user1/views.py	/^def index(request):$/;"	kind:function	line:88
+info	user1/views.py	/^def info(request):$/;"	kind:function	line:145
+init_chars	user1/backend/check_code.py	/^init_chars = ''.join((_letter_cases, _upper_cases, _numbers))$/;"	kind:variable	line:10
+initial	user1/migrations/0001_initial.py	/^    initial = True$/;"	kind:variable	line:10
+keywords	user1/models.py	/^    keywords = models.CharField(max_length=200)$/;"	kind:variable	line:20
+list1	user1/views.py	/^def list1(request):$/;"	kind:function	line:124
+login	user1/views.py	/^def login(request):$/;"	kind:function	line:48
+logined	user1/views.py	/^def logined(request):$/;"	kind:function	line:66
+loginf	user1/views.py	/^def loginf(request):$/;"	kind:function	line:32
+logout	user1/views.py	/^def logout(request):$/;"	kind:function	line:92
+manage.py	manage.py	1;"	kind:file	line:1
+model_name	user1/migrations/0002_auto_20170408_0431.py	/^            model_name='user',$/;"	kind:variable	line:16
+model_name	user1/migrations/0002_auto_20170408_0431.py	/^            model_name='user',$/;"	kind:variable	line:20
+model_name	user1/migrations/0002_auto_20170408_0431.py	/^            model_name='user',$/;"	kind:variable	line:24
+model_name	user1/migrations/0002_auto_20170408_0431.py	/^            model_name='user',$/;"	kind:variable	line:28
+model_name	user1/migrations/0003_auto_20170408_0453.py	/^            model_name='user',$/;"	kind:variable	line:16
+models.py	user1/models.py	1;"	kind:file	line:1
+name	user1/apps.py	/^    name = 'user1'$/;"	kind:variable	line:7
+name	user1/migrations/0001_initial.py	/^            name='Aboutall',$/;"	kind:variable	line:17
+name	user1/migrations/0001_initial.py	/^            name='User',$/;"	kind:variable	line:25
+name	user1/migrations/0002_auto_20170408_0431.py	/^            name='desc',$/;"	kind:variable	line:17
+name	user1/migrations/0002_auto_20170408_0431.py	/^            name='imgabout',$/;"	kind:variable	line:21
+name	user1/migrations/0002_auto_20170408_0431.py	/^            name='qq',$/;"	kind:variable	line:25
+name	user1/migrations/0002_auto_20170408_0431.py	/^            name='wechat',$/;"	kind:variable	line:29
+name	user1/migrations/0004_site.py	/^            name='Site',$/;"	kind:variable	line:16
+new_name	user1/migrations/0003_auto_20170408_0453.py	/^            new_name='username',$/;"	kind:variable	line:18
+old_name	user1/migrations/0003_auto_20170408_0453.py	/^            old_name='name',$/;"	kind:variable	line:17
+operations	user1/migrations/0001_initial.py	/^    operations = [$/;"	kind:variable	line:15
+operations	user1/migrations/0002_auto_20170408_0431.py	/^    operations = [$/;"	kind:variable	line:14
+operations	user1/migrations/0003_auto_20170408_0453.py	/^    operations = [$/;"	kind:variable	line:14
+operations	user1/migrations/0004_site.py	/^    operations = [$/;"	kind:variable	line:14
+page	user1/views.py	/^def page(request):$/;"	kind:function	line:129
+pass1	user1/views.py	/^def pass1(request):$/;"	kind:function	line:134
+password	user1/models.py	/^    password = models.CharField(max_length=200)$/;"	kind:variable	line:8
+password	user1/views.py	/^    password = forms.CharField(label='密码',widget=forms.PasswordInput(attrs={'class': 'input input-big',$/;"	kind:variable	line:18
+publishtime	user1/models.py	/^    publishtime = models.DateTimeField(auto_now=True)$/;"	kind:variable	line:17
+services	user1/views.py	/^def services(request):$/;"	kind:function	line:102
+settings.py	untitled1/settings.py	1;"	kind:file	line:1
+tests.py	user1/tests.py	1;"	kind:file	line:1
+title	user1/models.py	/^    title = models.CharField(max_length=200)$/;"	kind:variable	line:21
+urlpatterns	untitled1/urls.py	/^urlpatterns = [$/;"	kind:variable	line:17
+urls.py	untitled1/urls.py	1;"	kind:file	line:1
+username	user1/models.py	/^    username = models.CharField(max_length=20)$/;"	kind:variable	line:7
+username	user1/views.py	/^    username = forms.CharField(label='用户名',max_length=100, widget=forms.TextInput(attrs={'class': 'input input-big',$/;"	kind:variable	line:15
+views.py	user1/views.py	1;"	kind:file	line:1
+vregist	user1/views.py	/^def vregist(request):$/;"	kind:function	line:75
+wsgi.py	untitled1/wsgi.py	1;"	kind:file	line:1
