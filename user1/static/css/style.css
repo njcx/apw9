@@ -471,6 +471,21 @@ a.more:hover{
 .col-news-top .date-in .month-in label span {
 	display: block;
 }
+.login-logo {
+    background-size: 20px;
+    color: white;
+    vertical-align: middle;
+    height: 50px;
+    display: block;
+    padding: 0 0 0 30px;
+    margin-left: 15px;
+    line-height: 83px;
+}
+
+.login-logo a {
+    color: white;
+}
+
 .team-top img{
 	overflow:hidden;
 	-webkit-transition-duration: 0.8s;
